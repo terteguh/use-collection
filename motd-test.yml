@@ -3,4 +3,4 @@
   hosts: all
   become: true
   roles:
-    - name: exercise.motd.banner
+    - name: student.testcollection02.mymotd02
