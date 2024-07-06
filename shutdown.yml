@@ -4,10 +4,9 @@
   become: true
   roles:
     - name: student.collec.motd
-    - name: teguh.collection.motd
 
 
-  tasks:
+  # tasks:
 
-  - name: Unconditionally shut down the machine with all defaults
-    community.general.shutdown:
+  # - name: Unconditionally shut down the machine with all defaults
+  #   community.general.shutdown:
