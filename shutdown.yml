@@ -1,0 +1,8 @@
+---
+- name: Test banner role from exercise.motd collection
+  hosts: all
+  become: true
+  tasks:
+
+  - name: Unconditionally shut down the machine with all defaults
+    community.general.shutdown:
