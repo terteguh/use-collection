@@ -3,7 +3,7 @@
   hosts: all
   become: true
   roles:
-    - name: student.collec.motd
+    - name: student.jakarta.timur
 
 
   # tasks:
